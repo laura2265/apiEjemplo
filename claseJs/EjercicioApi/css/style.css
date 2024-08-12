@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #042c5590; /* Fondo claro */
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    width: 90%;
+    max-width: 1200px; /* Ancho máximo para el contenedor */
+    background: #042c5590;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    margin: 12px;
+    width: 100%; /* Las tarjetas ocuparán todo el ancho de la columna */
+}
